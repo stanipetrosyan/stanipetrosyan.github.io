@@ -5,4 +5,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
   base: "/stanipetrosyan/",
   plugins: [svelte()],
+  build: {
+    outDir: './docs'
+  }
 })
