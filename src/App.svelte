@@ -27,7 +27,6 @@
   <x-grid columns=8>
     <x-cell span="2-7">
       <Tabs {items}></Tabs>
-    
     </x-cell>
   </x-grid>
 </main>
