@@ -1,4 +1,18 @@
 <script lang="ts">
+  import Tabs from "./Tabs.svelte";
+  import About from "./About.svelte";
+	import Knowledge from "./Knowledge.svelte";
+
+  let items = [
+    { label: "About Me",
+		 value: 1,
+		 component: About
+		},
+    { label: "Knowledge",
+		 value: 2,
+		 component: Knowledge
+		}
+  ];
 </script>
 
 <main>
@@ -8,27 +22,14 @@
     </x-cell>
   </x-grid>
 
+  
+
   <x-grid columns=8>
-    <x-cell span="3..">
-      <ul class="inline">
-        <button class="is-white">About me</button>
-        <button class="is-blank">Experience</button>
-        <button class="is-blank">Knowledge</button>
-        <button class="is-blank">Certifications</button>
-        <button class="is-blank">Books</button>
-        
-      </ul>
+    <x-cell span="2-7">
+      <Tabs {items}></Tabs>
+    
     </x-cell>
   </x-grid>
-
-  <h4>Computer enthusiast since
-    first years of high school. I like
-    challenge myself with problems and
-    I dedicate all of myself to them
-    resolution. Working in a world
-    Agile I got the skill to work in
-    Excellent team and management
-    deadlines.</h4>
 </main>
 
 <style>
