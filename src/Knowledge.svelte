@@ -1,31 +1,45 @@
 <script>
-  let count = 1;
-  </script>
-  <h2>
-    And we can have interactive content like this
-  </h2>
-  <p>
-    The count is: {count}
-  </p>
-  <button on:click={()=> count += 1}>
-    Increment
-  </button>
-  <button on:click={()=> count -= 1}>
-    Decrement
-  </button>
-  
-  
-  <style>
-    button {
-      border-radius: .25rem;
-      cursor: pointer;
-      font-weight: bold;
-      background-color: #fff;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-      max-width: 250px;
-    }
-    button:active {
-      background-color: #efefef;
-      box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.1), 0 0px 0px 0 rgba(0, 0, 0, 0.06);	
-    }
-  </style>
+  import Card from "./components/Card.svelte";
+</script>
+
+<h2>This is what I lernead</h2>
+
+<h3>Methodologies</h3>
+
+<p>AGILE, TDD, Pair programming, CQRS/ES, Event stormign, Clean Code, Clean Architecture, Hexagonal Architecture </p>
+
+<h3>Languages</h3>
+<x-grid>
+  <x-cell>
+    <Card title="Kotlin" icon="" description="" />
+  </x-cell>
+  <x-cell>
+    <Card title="Golang" icon="" description="" />
+  </x-cell>
+</x-grid>
+
+<h3>Tools</h3>
+<x-grid>
+  <x-cell>
+    <Card title="Docker" icon="" description="" />
+  </x-cell>
+  <x-cell>
+    <Card title="AWS" icon="" description="" />
+  </x-cell>
+  <x-cell>
+    <Card title="Grafana" icon="" description="" />
+  </x-cell>
+  <x-cell>
+    <Card title="Terraform" icon="" description="" />
+  </x-cell>
+  <x-cell>
+    <Card title="Gitlab CI/CD" icon="" description="" />
+  </x-cell>
+</x-grid>
+
+
+<style>
+  p {
+    font-size: 17px;
+  }
+</style>
