@@ -1,36 +1,30 @@
 <script lang="ts">
-  import Tabs from "./Tabs.svelte";
+  import { Tabs, TabItem, Button, Heading } from "flowbite-svelte";
   import About from "./About.svelte";
-	import Knowledge from "./Knowledge.svelte";
-
-  let items = [
-    { label: "About Me",
-		 value: 1,
-		 component: About
-		},
-    { label: "Knowledge",
-		 value: 2,
-		 component: Knowledge
-		}
-  ];
+  import Knowledge from "./Knowledge.svelte";
+  import Experience from "./Experience.svelte";
 </script>
 
 <main>
-  <x-grid columns=8>
-    <x-cell span="5..">
-      <h1 start animation=fadein ease=easeInOutQuad style="--duration: 2s; --delay: 1s;">Welcome</h1>
-    </x-cell>
-  </x-grid>
-
-  
-
-  <x-grid columns=8>
-    <x-cell span="2-7">
-      <Tabs {items}></Tabs>
-    </x-cell>
-  </x-grid>
+  <div class="grid grid-rows-6 grid-cols-6">
+    <div class="col-start-2 row-start-2 row-span-1">
+      <Heading tag="h1" class="mb-4">Welcome</Heading>
+    </div>
+    <div class="col-start-2 col-span-3 row-start-3 row-span-2">
+      <Tabs style="underline">
+        <TabItem open title="About">
+          <About />
+        </TabItem>
+        <TabItem title="Knowledge">
+          <Knowledge />
+        </TabItem>
+        <TabItem title="Experience">
+          <Experience />
+        </TabItem>
+      </Tabs>
+    </div>
+  </div>
 </main>
 
 <style>
-  
 </style>
