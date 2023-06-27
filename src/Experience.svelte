@@ -1,8 +1,5 @@
 <script>
     import { Timeline, TimelineItem } from "flowbite-svelte";
-
-
-
 </script>
 
 <Timeline>
