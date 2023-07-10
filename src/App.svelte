@@ -3,10 +3,14 @@
   import About from "./About.svelte";
   import Knowledge from "./Knowledge.svelte";
   import Experience from "./Experience.svelte";
+  import { DarkMode } from 'flowbite-svelte';
 </script>
 
 <main>
   <div class="grid grid-rows-6 grid-cols-6">
+    <div class="col-start-6 row-start-1">
+      <DarkMode/>
+    </div>
     <div class="col-start-2 row-start-2 row-span-1">
       <Heading tag="h1" class="mb-4">Welcome</Heading>
     </div>
