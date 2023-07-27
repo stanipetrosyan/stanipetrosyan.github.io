@@ -14,6 +14,7 @@
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
     "@tsconfig/svelte": "^4.0.1",
     "autoprefixer": "^10.4.14",
+    "flowbite-svelte-icons": "^0.2.6",
     "gh-pages": "^5.0.0",
     "postcss": "^8.4.23",
     "postcss-load-config": "^4.0.1",
