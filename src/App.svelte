@@ -3,18 +3,12 @@
   import About from "./About.svelte";
   import Knowledge from "./Knowledge.svelte";
   import Experience from "./Experience.svelte";
-  import { DarkMode } from 'flowbite-svelte';
+  import { DarkMode } from "flowbite-svelte";
 </script>
 
 <main>
-  <div class="grid grid-rows-6 grid-cols-6">
-    <div class="col-start-6 row-start-1">
-      <DarkMode/>
-    </div>
-    <div class="col-start-2 row-start-2 row-span-1">
-      <Heading tag="h1" class="mb-4">Welcome</Heading>
-    </div>
-    <div class="col-start-2 col-span-3 row-start-3 row-span-2">
+  <div class="flex flex-row">
+    <div class="basis-full">
       <Tabs style="underline">
         <TabItem open title="About">
           <About />
@@ -26,6 +20,9 @@
           <Experience />
         </TabItem>
       </Tabs>
+    </div>
+    <div class="place-self-start">
+      <DarkMode />
     </div>
   </div>
 </main>
