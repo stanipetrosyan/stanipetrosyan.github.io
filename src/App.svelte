@@ -7,16 +7,21 @@
 </script>
 
 <main>
-  <div class="flex flex-row">
-    <div class="basis-full">
-      <Tabs style="underline">
-        <TabItem open title="About">
+  <div class="flex flex-row ">
+    <div class="basis-full m-16">
+      <Tabs
+        tabStyle="pill"
+        defaultClass="flex divide-x rtl:divide-x-reverse divide-gray-200 dark:divide-gray-700">
+        <TabItem class="w-full" open>
+          <div slot="title" class="text-lg">About</div>
           <About />
         </TabItem>
-        <TabItem title="Knowledge">
+        <TabItem class="w-full">
+          <span slot="title" class="text-lg">Knowledge</span>
           <Knowledge />
         </TabItem>
-        <TabItem title="Experience">
+        <TabItem class="w-full">
+          <span slot="title" class="text-lg">Experience</span>
           <Experience />
         </TabItem>
       </Tabs>
