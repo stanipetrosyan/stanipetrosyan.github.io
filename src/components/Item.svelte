@@ -7,7 +7,7 @@
 </script>
 
 <div>
-  <Card padding="sm" href={link}>
+  <Card padding="sm" href={link} target="_blank">
     <div class="flex flex-col items-center pb-4">
       <Avatar size="lg" src={img} />
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>

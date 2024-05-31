@@ -7,13 +7,13 @@
 </script>
 
 <main>
-  <div class="flex flex-row ">
+  <div class="flex flex-row">
     <div class="basis-full m-16">
       <Tabs
         tabStyle="pill"
         defaultClass="flex divide-x rtl:divide-x-reverse divide-gray-200 dark:divide-gray-700">
         <TabItem class="w-full" open>
-          <div slot="title" class="text-lg">About</div>
+          <div slot="title" class="text-lg self-center">About</div>
           <About />
         </TabItem>
         <TabItem class="w-full">
