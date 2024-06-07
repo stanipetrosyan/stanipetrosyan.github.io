@@ -10,7 +10,7 @@
       <Timeline>
         <TimelineItem title="Bachelor Degree at University of Trento" date="September 2020">
         </TimelineItem>
-        <TimelineItem title="Software Developer at CherryChain s.r.l" date="January 2021">
+        <TimelineItem title="Software Developer at CherryChain s.r.l" date="September 2020">
         </TimelineItem>
       </Timeline>
     </div>

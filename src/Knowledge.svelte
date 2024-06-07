@@ -11,10 +11,10 @@
       <Item name="Agile" />
       <Item name="CQRS/ES" />
       <Item name="Clean Architecture" />
-      <Item name="TDD" />
+      <Item name="TDD" img="./resources/tdd.png"/>
       <Item name="Pair Programming" />
       <Item name="Event Storming" />
-      <Item name="CI/CD" />
+      <Item name="CI/CD" img="./resources/ci-cd.png" />
     </div>
   </Card>
   <Card class="text-center" size="xl" padding="xl">
@@ -55,7 +55,10 @@
         name="Terraform"
         link="https://www.terraform.io/"
       />
-      <Item name="Gitlab CI/CD" />
+      <Item
+        img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
+        name="Gitlab CI/CD"
+      />
     </div>
   </Card>
   <Card class="text-center" size="xl" padding="xl">
@@ -63,7 +66,7 @@
 
     <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
       <Item
-        img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+        img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
         name="AWS"
       />
       <Item
@@ -95,9 +98,12 @@
         name="VueJS"
         link="https://vuejs.org/"
       />
-      <Item img="" name="Vert.x" link="https://vertx.io/" />
+      <Item
+        img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vertx/vertx-original.svg"
+        name="Vert.x"
+        link="https://vertx.io/"
+      />
     </div>
-
   </Card>
 </div>
 
