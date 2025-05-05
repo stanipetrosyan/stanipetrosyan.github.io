@@ -6,31 +6,29 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "npx gh-pages -d dist",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
-  },
-  "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^2.0.3",
-    "@tsconfig/svelte": "^4.0.1",
-    "autoprefixer": "^10.4.14",
-    "flowbite-svelte-icons": "^0.2.6",
-    "gh-pages": "^5.0.0",
-    "postcss": "^8.4.23",
-    "postcss-load-config": "^4.0.1",
-    "svelte": "^3.57.0",
-    "svelte-check": "^2.10.3",
-    "svelte-preprocess": "^5.0.3",
-    "tailwindcss": "^3.3.1",
-    "tslib": "^2.5.0",
-    "typescript": "^5.0.2",
-    "vite": "^4.3.2"
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "devicon": "^2.15.1",
-    "flowbite": "^1.6.6",
-    "flowbite-svelte": "^0.38.5",
-    "tailwind-merge": "^1.13.2"
+    "@react-three/drei": "^10.0.7",
+    "@react-three/fiber": "^9.1.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.5.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.7",
+    "vite": "^6.3.5"
   }
 }
