@@ -31,6 +31,7 @@
     "devicon": "^2.15.1",
     "flowbite": "^1.6.6",
     "flowbite-svelte": "^0.38.5",
+    "svelte-routing": "^2.13.0",
     "tailwind-merge": "^1.13.2"
   }
 }

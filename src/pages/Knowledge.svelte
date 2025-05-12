@@ -1,6 +1,6 @@
 <script>
   import { Card, Heading, Span, List, Li } from "flowbite-svelte";
-  import Item from "./components/Item.svelte";
+  import Item from "../components/Item.svelte";
 </script>
 
 <div class="grid grid-cols-2 grid-rows-2 gap-4">
