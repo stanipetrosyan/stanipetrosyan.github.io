@@ -1,18 +1,18 @@
 <script>
-  import { Card, Button, Avatar } from 'flowbite-svelte';
+  import { Card, Button, Avatar, GradientButton, Heading } from 'flowbite-svelte';
   export let img = "";
   export let name = "";
-  export let description = "";
   export let link = "/"
+  export let color = "pinkToOrange"
 </script>
 
 <div>
-  <Card padding="sm" href={link} target="_blank">
-    <div class="flex flex-col items-center pb-4">
+  <GradientButton href={link} outline color={color}>
+     <div class="flex flex-col items-center">
       <Avatar size="lg" src={img} />
-      <h5 class="m-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>
-      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">{description}</p>
+      <Heading tag="h6">{name}</Heading>
     </div>
-  </Card>
+   
+  </GradientButton>
 </div>
 
