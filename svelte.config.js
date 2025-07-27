@@ -8,6 +8,9 @@ export default {
     vitePreprocess(),
     preprocess({
       postcss: true,
-    }),
+    })
   ],
+  kit: {
+    router: { type: 'hash' }
+  }
 };
