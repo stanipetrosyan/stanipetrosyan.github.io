@@ -7,8 +7,7 @@ import {
   FwbTimelinePoint,
   FwbTimelineTime,
   FwbTimelineTitle,
-  FwbCard,
-  
+  FwbCard
 } from 'flowbite-vue'
 </script>
 
