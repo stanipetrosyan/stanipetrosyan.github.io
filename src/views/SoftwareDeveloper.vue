@@ -4,7 +4,7 @@ import { FwbTab, FwbTabs } from 'flowbite-vue'
 import Experience from '@/components/Experience.vue';
 import Knowledge from '@/components/Knowledge.vue';
 
-const activeTab = ref('first')
+const activeTab = ref('experience')
 </script>
 
 <template>

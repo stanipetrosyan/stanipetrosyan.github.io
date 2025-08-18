@@ -33,21 +33,14 @@ onMounted(() => {
 </script>
 
 <template>
-
   <div class="flex flex-row m-8">
-    <div class="flex justify-end">
+    <!--<div class="flex justify-end">
       <fwb-button id="theme-toggle">Dark</fwb-button>
-    </div>
+    </div>-->
     <div class="place-self-start">
       <fwb-breadcrumb>
         <fwb-breadcrumb-item home href="/">
           Home
-        </fwb-breadcrumb-item>
-        <fwb-breadcrumb-item href="/software">
-          Projects
-        </fwb-breadcrumb-item>
-        <fwb-breadcrumb-item>
-          Flowbite
         </fwb-breadcrumb-item>
       </fwb-breadcrumb>
     </div>

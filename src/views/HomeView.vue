@@ -2,6 +2,8 @@
 import { FwbImg, FwbHeading, FwbCard, FwbFooter } from 'flowbite-vue'
 
 
+const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
+
 </script>
 
 <template>
@@ -9,7 +11,7 @@ import { FwbImg, FwbHeading, FwbCard, FwbFooter } from 'flowbite-vue'
     <span class="mt-10">
       <div class="grid grid-cols-8 grid-rows-2 gap-4 mt-10">
         <div class="col-start-4 col-end-6 row-start-1 row-end-2 mb-10">
-          <fwb-img src="../assets/myself.jpg" class="h-64 w-64 rounded-full mx-auto mb-8" />
+          <fwb-img :src=imgUrl class="h-64 w-64 rounded-full mx-auto mb-8" />
 
           <fwb-heading tag="h5">I have been passionate about computer science since my early high
             school years. I like to challenge myself with problems and dedicate
