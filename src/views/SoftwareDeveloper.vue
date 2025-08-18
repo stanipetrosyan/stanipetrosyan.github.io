@@ -8,16 +8,19 @@ const activeTab = ref('experience')
 </script>
 
 <template>
-  <fwb-tabs v-model="activeTab" variant="underline" class="p-5 dark">
-    <fwb-tab name="experience" title="Experience" >
-      <Experience></Experience>
-    </fwb-tab>
-    <fwb-tab name="knowledge" title="Knowledge">
-      <Knowledge></Knowledge>
-    </fwb-tab>
-  </fwb-tabs>
-   
+  <div class="flex flex-row">
+    <div class="basis-full m-8">
+      <fwb-tabs v-model="activeTab" variant="underline">
+        <fwb-tab name="experience" title="Experience">
+          <Experience></Experience>
+        </fwb-tab>
+        <fwb-tab name="knowledge" title="Knowledge">
+          <Knowledge></Knowledge>
+        </fwb-tab>
+      </fwb-tabs>
+    </div>
+  </div>
+
 </template>
 
-<style>
-</style>
+<style></style>
