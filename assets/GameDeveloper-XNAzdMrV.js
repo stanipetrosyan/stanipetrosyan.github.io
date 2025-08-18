@@ -1,1 +1,0 @@
-import{c as n,a as r,o as c}from"./index-ETnRrm_L.js";const _=(t,e)=>{const o=t.__vccOpts||t;for(const[s,a]of e)o[s]=a;return o},l={},f={class:"about"};function i(t,e){return c(),n("div",f,e[0]||(e[0]=[r("h1",null,"This is an Game page",-1)]))}const d=_(l,[["render",i]]);export{d as default};
