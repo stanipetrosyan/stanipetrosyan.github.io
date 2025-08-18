@@ -20,7 +20,7 @@ const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
 
         <div class="col-start-2 col-end-5 row-start-2 row-end-3">
           <fwb-card class="sm:p-10 md:p-12 p-12 w-xl" variant="horizontal">
-            <a href="/software">
+            <a href="#/software">
               <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Full Stack Developer
               </h5>
@@ -32,14 +32,14 @@ const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
               Stack Developer, as I have learned techniques that cover the entire
               project development lifecycle.
             </p>
-            <a href="/software" class="text-primary-600 inline-flex items-center hover:underline">
+            <a href="#/software" class="text-primary-600 inline-flex items-center hover:underline">
               Explore
             </a>
           </fwb-card>
         </div>
         <div class="col-start-5 col-end-8 row-start-2">
           <fwb-card class="sm:p-10 md:p-12 p-12 w-full" variant="horizontal">
-            <a href="/game">
+            <a href="#/game">
               <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Game Developer
               </h5>
@@ -52,7 +52,7 @@ const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
               that make each game unique. I’m currently studying the Unity3D engine
               and enjoy creating Pixel Art in my free time.
             </p>
-            <a href="/game" class="text-primary-600 inline-flex items-center hover:underline">
+            <a href="#/game" class="text-primary-600 inline-flex items-center hover:underline">
               Explore
             </a>
           </fwb-card>
