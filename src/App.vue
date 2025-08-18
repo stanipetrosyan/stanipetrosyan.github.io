@@ -5,7 +5,7 @@ import { FwbButton, FwbBreadcrumb, FwbBreadcrumbItem } from 'flowbite-vue';
 
 <template>
   <header>
-    <fwb-breadcrumb solid>
+    <fwb-breadcrumb>
       <fwb-breadcrumb-item home href="/home">
         Home
       </fwb-breadcrumb-item>

@@ -7,7 +7,7 @@ const activeTab = ref('first')
 </script>
 
 <template>
-   <fwb-tabs v-model="activeTab" variant="pills" class="p-5">
+  <fwb-tabs v-model="activeTab" variant="underline" class="p-5 dark">
     <fwb-tab name="experience" title="Experience" >
       <Experience></Experience>
     </fwb-tab>
@@ -21,6 +21,7 @@ const activeTab = ref('first')
       Lorem ipsum dolor...
     </fwb-tab>
   </fwb-tabs>
+   
 </template>
 
 <style>

@@ -7,13 +7,14 @@ import {
   FwbTimelinePoint,
   FwbTimelineTime,
   FwbTimelineTitle,
-  FwbCard
+  FwbCard,
+  
 } from 'flowbite-vue'
 </script>
 
 <template>
   <fwb-timeline>
-    <fwb-timeline-item>
+    <fwb-timeline-item class="dark">
       <fwb-timeline-point />
       <fwb-timeline-content>
         <fwb-timeline-time>
@@ -111,6 +112,7 @@ import {
       </fwb-timeline-content>
     </fwb-timeline-item>
   </fwb-timeline>
+
 </template>
 
 <style>
