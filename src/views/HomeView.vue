@@ -1,5 +1,5 @@
 <script setup>
-import { FwbImg, FwbHeading, FwbCard, FwbFooter } from 'flowbite-vue'
+import { FwbImg, FwbHeading, FwbCard, FwbFooter, FwbButton } from 'flowbite-vue'
 
 
 const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
@@ -18,33 +18,34 @@ const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
             myself fully to solving them.</fwb-heading>
         </div>
 
-        <div class="col-start-2 col-end-5 row-start-2 row-end-3">
-          <fwb-card class="sm:p-10 md:p-12 p-12 w-xl" variant="horizontal">
+        <div class="col-start-2 col-end-5 row-start-2 row-end-3 justify-self-center">
+          <fwb-card class="sm:p-10 md:p-12 p-12 w-xl dark:bg-teal-600" variant="horizontal">
             <a href="#/software">
               <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Full Stack Developer
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-200">
               Passionate about computer science, with a strong interest in
               high-quality software development. I pay particular attention to
               writing clean, readable, and maintainable code. I see myself as a Full
               Stack Developer, as I have learned techniques that cover the entire
               project development lifecycle.
             </p>
-            <a href="#/software" class="text-primary-600 inline-flex items-center hover:underline">
+             <fwb-button href="#/software" color="purple">
               Explore
-            </a>
+            </fwb-button>
+
           </fwb-card>
         </div>
-        <div class="col-start-5 col-end-8 row-start-2">
-          <fwb-card class="sm:p-10 md:p-12 p-12 w-full" variant="horizontal">
+        <div class="col-start-5 col-end-8 row-start-2 justify-self-center">
+          <fwb-card class="sm:p-10 md:p-12 p-12 w-full dark:bg-teal-600" variant="horizontal">
             <a href="#/game">
               <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Game Developer
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-200">
               I have a strong passion for video game development. I'm fascinated by
               every aspect of the process, from designing a story or gameplay
               mechanic to bringing it to life. I enjoy creating environments,
@@ -52,9 +53,9 @@ const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
               that make each game unique. I’m currently studying the Unity3D engine
               and enjoy creating Pixel Art in my free time.
             </p>
-            <a href="#/game" class="text-primary-600 inline-flex items-center hover:underline">
+            <fwb-button href="#/game" class="dark:bg-gray-900">
               Explore
-            </a>
+            </fwb-button>
           </fwb-card>
         </div>
         <div class="col-start-2 col-end-8 row-start-4 row-end-5 mb-10">
