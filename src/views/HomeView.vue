@@ -19,7 +19,7 @@ const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
         </div>
 
         <div class="col-start-2 col-end-5 row-start-2 row-end-3 justify-self-center">
-          <fwb-card class="sm:p-10 md:p-12 p-12 w-xl dark:bg-teal-600" variant="horizontal">
+          <fwb-card class="sm:p-10 md:p-12 p-12 w-xl dark:bg-gray-900" variant="horizontal">
             <a href="#/software">
               <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Full Stack Developer

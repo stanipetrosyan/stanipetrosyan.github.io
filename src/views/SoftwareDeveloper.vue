@@ -3,6 +3,8 @@ import { ref } from 'vue'
 import { FwbTab, FwbTabs } from 'flowbite-vue'
 import Experience from '@/components/Experience.vue';
 import Knowledge from '@/components/Knowledge.vue';
+import Blog from '@/components/Blog.vue';
+import Projects from '@/components/Projects.vue';
 
 const activeTab = ref('experience')
 </script>
@@ -16,6 +18,12 @@ const activeTab = ref('experience')
         </fwb-tab>
         <fwb-tab name="knowledge" title="Knowledge">
           <Knowledge></Knowledge>
+        </fwb-tab>
+        <fwb-tab name="blog" title="Blog">
+          <Blog></Blog>
+        </fwb-tab>
+        <fwb-tab name="projects" title="Projects">
+          <Projects></Projects>
         </fwb-tab>
       </fwb-tabs>
     </div>

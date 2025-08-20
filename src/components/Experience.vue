@@ -25,12 +25,12 @@ import {
               Analyst & Software Developer at Afliant s.r.l
             </fwb-timeline-title>
             <fwb-timeline-body>
-              <fwb-card class="w-sm mb-4">
+              <fwb-card class="w-sm mb-4 dark:bg-teal-700">
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Cisalfa Sport
                   </h5>
-                  <p class="font-normal text-gray-700 dark:text-gray-400">
+                  <p class="font-normal text-gray-700 dark:text-zinc-200">
                     Functional analysis of the flows requested by the customer to
                     implement the new OMS system for managing shipments
                   </p>
@@ -59,7 +59,7 @@ import {
               Software Developer at CherryChain s.r.l
             </fwb-timeline-title>
             <fwb-timeline-body>
-              <fwb-card class="w-sm mb-4">
+              <fwb-card class="w-sm mb-4 dark:bg-rose-500">
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Loyalty customer management for DAO partners
