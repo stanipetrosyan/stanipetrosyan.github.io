@@ -25,7 +25,7 @@ import {
               Analyst & Software Developer at Afliant s.r.l
             </fwb-timeline-title>
             <fwb-timeline-body>
-              <fwb-card class="w-sm mb-4 dark:bg-teal-700">
+              <fwb-card class="w-sm mb-4 bg-gray-900 dark:bg-teal-600">
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Cisalfa Sport
@@ -36,7 +36,7 @@ import {
                   </p>
                 </div>
               </fwb-card>
-              <fwb-card class="w-sm mb-4">
+              <fwb-card class="w-sm mb-4 bg-gray-900 dark:bg-teal-600">
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Trentino electronic school register system
@@ -59,7 +59,7 @@ import {
               Software Developer at CherryChain s.r.l
             </fwb-timeline-title>
             <fwb-timeline-body>
-              <fwb-card class="w-sm mb-4 dark:bg-rose-500">
+              <fwb-card class="w-sm mb-4 bg-gray-900 dark:bg-teal-600">
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Loyalty customer management for DAO partners
@@ -81,7 +81,7 @@ import {
                   </ul>
                 </div>
               </fwb-card>
-              <fwb-card class="w-sm mb-4">
+              <fwb-card class="w-sm mb-4 bg-gray-900 dark:bg-teal-600">
                 <div class="p-5">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Real-time consumption display system for Dolomiti Energia

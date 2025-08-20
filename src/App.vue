@@ -7,23 +7,24 @@ import DarkMode from './components/DarkMode.vue';
 </script>
 
 <template>
-  <div class="flex flex-row m-8">
-    <div class="flex justify-end">
-      <DarkMode></DarkMode>
-    </div>
-    <div class="place-self-start">
-      <fwb-breadcrumb>
-        <fwb-breadcrumb-item home href="/">
+
+  <div class="flex justify-end m-6">
+    <DarkMode></DarkMode>
+  </div>
+  <div class="flex flex-row m-6">
+    <div class="place-self-center">
+      <fwb-breadcrumb class="text-gray-900 dark:text-teal-600">
+        <fwb-breadcrumb-item  home href="/">
           Home
         </fwb-breadcrumb-item>
       </fwb-breadcrumb>
     </div>
-
-
-
   </div>
+
 
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

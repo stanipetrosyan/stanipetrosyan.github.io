@@ -11,7 +11,7 @@ const activeTab = ref('experience')
 
 <template>
   <div class="flex flex-row">
-    <div class="basis-full m-8">
+    <div class="basis-full m-6">
       <fwb-tabs v-model="activeTab" variant="underline">
         <fwb-tab name="experience" title="Experience">
           <Experience></Experience>

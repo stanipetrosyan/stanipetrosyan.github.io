@@ -19,33 +19,33 @@ const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
         </div>
 
         <div class="col-start-2 col-end-5 row-start-2 row-end-3 justify-self-center">
-          <fwb-card class="sm:p-10 md:p-12 p-12 w-xl dark:bg-gray-900" variant="horizontal">
+          <fwb-card class="sm:p-10 md:p-12 p-12 w-xl bg-gray-900 dark:bg-teal-600" variant="horizontal">
             <a href="#/software">
-              <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-semibold tracking-tight text-white">
                 Full Stack Developer
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-500 dark:text-gray-200">
+            <p class="mb-3 font-normal text-gray-400 dark:text-gray-200">
               Passionate about computer science, with a strong interest in
               high-quality software development. I pay particular attention to
               writing clean, readable, and maintainable code. I see myself as a Full
               Stack Developer, as I have learned techniques that cover the entire
               project development lifecycle.
             </p>
-             <fwb-button href="#/software" color="purple">
+             <fwb-button href="#/software" class="dark:bg-gray-900 bg-teal-600">
               Explore
             </fwb-button>
 
           </fwb-card>
         </div>
         <div class="col-start-5 col-end-8 row-start-2 justify-self-center">
-          <fwb-card class="sm:p-10 md:p-12 p-12 w-full dark:bg-teal-600" variant="horizontal">
+          <fwb-card class="sm:p-10 md:p-12 p-12 w-full bg-gray-900 dark:bg-teal-600" variant="horizontal">
             <a href="#/game">
-              <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h5 class="mb-2 text-2xl font-semibold tracking-tight text-white">
                 Game Developer
               </h5>
             </a>
-            <p class="mb-3 font-normal text-gray-500 dark:text-gray-200">
+            <p class="mb-3 font-normal text-gray-400 dark:text-gray-200">
               I have a strong passion for video game development. I'm fascinated by
               every aspect of the process, from designing a story or gameplay
               mechanic to bringing it to life. I enjoy creating environments,
@@ -53,7 +53,7 @@ const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
               that make each game unique. I’m currently studying the Unity3D engine
               and enjoy creating Pixel Art in my free time.
             </p>
-            <fwb-button href="#/game" class="dark:bg-gray-900">
+            <fwb-button href="#/game" class="dark:bg-gray-900 bg-teal-600">
               Explore
             </fwb-button>
           </fwb-card>

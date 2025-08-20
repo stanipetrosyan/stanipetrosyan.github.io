@@ -9,7 +9,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
 
 <template>
   <div class="grid grid-cols-2 grid-rows-2 gap-4">
-    <fwb-card id="tech-card" class="text-center max-full md:max-w-full p-10 dark:bg-teal-600" variant="horizontal">
+    <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
       <fwb-heading tag="h3">Techniques</fwb-heading>
 
       <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
@@ -22,7 +22,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
         <KnowledgeItem name="CI/CD" img="./resources/ci-cd.png" color="green-blue" />
       </div>
     </fwb-card>
-    <fwb-card class="text-center max-full md:max-w-full p-10 p-10 dark:bg-teal-600" variant="horizontal">
+    <fwb-card class="text-center max-full md:max-w-full p-10 p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
       <fwb-heading tag="h3">Tools</fwb-heading>
 
       <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
@@ -44,7 +44,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
           color="pink-orange" />
       </div>
     </fwb-card>
-    <fwb-card class="text-center max-full md:max-w-full p-10 dark:bg-teal-600" variant="horizontal">
+    <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
       <fwb-heading tag="h3">Platforms</fwb-heading>
 
       <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
@@ -55,7 +55,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
           color="purple-blue" />
       </div>
     </fwb-card>
-    <fwb-card class="text-center max-full md:max-w-full p-10 dark:bg-teal-600" variant="horizontal">
+    <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
       <fwb-heading tag="h3">Languages & Frameworks</fwb-heading>
 
       <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
