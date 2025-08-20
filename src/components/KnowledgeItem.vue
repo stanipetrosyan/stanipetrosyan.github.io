@@ -7,10 +7,10 @@ defineProps(['img', 'name', 'link', 'color'])
 
 <template>
   <div>
-    <fwb-button :href=link outline :gradient=color>
+    <fwb-button :href=link outline :gradient=color square>
       <div class="flex flex-col items-center">
         <fwb-avatar size="lg" :img=img />
-        <fwb-heading tag="h6">{{ name  }}</fwb-heading>
+        <fwb-heading tag="h6" class="text-white">{{ name  }}</fwb-heading>
       </div>
 
     </fwb-button>

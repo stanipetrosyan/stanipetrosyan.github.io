@@ -10,7 +10,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
 <template>
   <div class="grid grid-cols-2 grid-rows-2 gap-4">
     <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
-      <fwb-heading tag="h3">Techniques</fwb-heading>
+      <fwb-heading tag="h3" class="text-white">Techniques</fwb-heading>
 
       <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
         <KnowledgeItem name="Agile" color="green-blue" />
@@ -22,8 +22,8 @@ import KnowledgeItem from './KnowledgeItem.vue';
         <KnowledgeItem name="CI/CD" img="./resources/ci-cd.png" color="green-blue" />
       </div>
     </fwb-card>
-    <fwb-card class="text-center max-full md:max-w-full p-10 p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
-      <fwb-heading tag="h3">Tools</fwb-heading>
+    <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
+      <fwb-heading tag="h3" class="text-white">Tools</fwb-heading>
 
       <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
         <KnowledgeItem img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" name="Docker"
@@ -45,7 +45,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
       </div>
     </fwb-card>
     <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
-      <fwb-heading tag="h3">Platforms</fwb-heading>
+      <fwb-heading tag="h3" class="text-white">Platforms</fwb-heading>
 
       <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
         <KnowledgeItem
@@ -56,7 +56,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
       </div>
     </fwb-card>
     <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
-      <fwb-heading tag="h3">Languages & Frameworks</fwb-heading>
+      <fwb-heading tag="h3" class="text-white">Languages & Frameworks</fwb-heading>
 
       <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
         <KnowledgeItem img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" name="Kotlin"
