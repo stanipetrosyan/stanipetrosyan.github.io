@@ -1,1 +1,0 @@
-import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as s,a,o as t}from"./index-DXV1FX0-.js";const r={},n={class:"about"};function c(_,e){return t(),s("div",n,e[0]||(e[0]=[a("h1",null,"This is an Game page",-1)]))}const m=o(r,[["render",c]]);export{m as default};
