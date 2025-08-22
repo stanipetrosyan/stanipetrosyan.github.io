@@ -118,14 +118,4 @@ import {
 
 </template>
 
-<style>
-
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-top: 1em;
-  margin-bottom: 1 em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 40px;
-}</style>
+<style></style>
