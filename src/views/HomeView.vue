@@ -59,8 +59,8 @@ const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
           </fwb-card>
         </div>
         <div class="col-start-2 col-end-8 row-start-4 row-end-5 mb-10">
-          <fwb-footer>
-              <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white">About me</h5>
+          <fwb-footer class="bg-gray-900 dark:bg-teal-600">
+              <h5 class="mb-2 text-3xl font-bold text-white">About me</h5>
           </fwb-footer>
         </div>
       </div>

@@ -13,7 +13,7 @@ import DarkMode from './components/DarkMode.vue';
   </div>
   <div class="flex flex-row m-6">
     <div class="place-self-center">
-      <fwb-breadcrumb class="text-gray-900 dark:text-teal-600">
+      <fwb-breadcrumb>
         <fwb-breadcrumb-item  home href="/">
           Home
         </fwb-breadcrumb-item>
@@ -25,6 +25,9 @@ import DarkMode from './components/DarkMode.vue';
   <RouterView />
 </template>
 
-<style scoped>
+<style>
 
+  a {
+    color: white !important;
+  }
 </style>

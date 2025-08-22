@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import { FwbTab, FwbTabs } from 'flowbite-vue'
+import { FwbTab, FwbTabs, FlowbiteThemable } from 'flowbite-vue'
 import Experience from '@/components/Experience.vue';
 import Knowledge from '@/components/Knowledge.vue';
 import Blog from '@/components/Blog.vue';
@@ -31,4 +31,5 @@ const activeTab = ref('experience')
 
 </template>
 
-<style></style>
+<style scoped>
+</style>
