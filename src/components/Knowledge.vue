@@ -12,7 +12,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
     <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
       <fwb-heading tag="h3" class="text-white">Techniques</fwb-heading>
 
-      <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
+      <div class="grid grid-cols-3 grid-rows-3 gap-10 mt-8">
         <KnowledgeItem name="Agile" color="green-blue" />
         <KnowledgeItem name="CQRS/ES" color="green-blue" />
         <KnowledgeItem name="Clean Architecture" color="green-blue" />
@@ -25,7 +25,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
     <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
       <fwb-heading tag="h3" class="text-white">Tools</fwb-heading>
 
-      <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
+      <div class="grid grid-cols-3 grid-rows-3 gap-10 mt-8">
         <KnowledgeItem img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" name="Docker"
           link="https://www.docker.com/" color="pink-orange" />
         <KnowledgeItem img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" name="NGINX"
@@ -47,7 +47,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
     <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
       <fwb-heading tag="h3" class="text-white">Platforms</fwb-heading>
 
-      <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
+      <div class="grid grid-cols-3 grid-rows-3 gap-10 mt-8">
         <KnowledgeItem
           img="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
           name="AWS" color="purple-blue" />
@@ -58,7 +58,7 @@ import KnowledgeItem from './KnowledgeItem.vue';
     <fwb-card class="text-center max-full md:max-w-full p-10 bg-gray-900 dark:bg-teal-600" variant="horizontal">
       <fwb-heading tag="h3" class="text-white">Languages & Frameworks</fwb-heading>
 
-      <div class="grid grid-cols-3 grid-rows-3 gap-4 mt-8">
+      <div class="grid grid-cols-3 grid-rows-3 gap-10 mt-8">
         <KnowledgeItem img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" name="Kotlin"
           link="https://kotlinlang.org/" color="teal-lime" />
         <KnowledgeItem img="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" name="Golang"
