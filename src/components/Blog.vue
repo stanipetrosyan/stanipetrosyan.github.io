@@ -7,27 +7,45 @@ import {
 
 const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
 
+const posts = [
+  {
+    title: "How to implement SAGA pattern in Go",
+    img: "https://flowbite.com/docs/images/blog/image-1.jpg",
+    link: "https://dev.to/cherrychain/vert-x-circuit-breaker-pattern-19pe",
+    author: "Stanislav",
+    date: "Coming soon"
+  },
+  {
+    title: "How to implement CQRS and Event Sourcing pattern in Go",
+    img: "https://flowbite.com/docs/images/blog/image-1.jpg",
+    link: "https://medium.com/@stani.petrosyan/how-to-implement-cqrs-and-event-sourcing-pattern-in-go-fd47dc0afd80",
+    author: "Stanislav",
+    date: "Jun 10, 2024 ⋅ 7 min read"
+  },
+  {
+    title: " Vert.x Circuit Breaker",
+    img: "https://flowbite.com/docs/images/blog/image-1.jpg",
+    link: "https://dev.to/cherrychain/vert-x-circuit-breaker-pattern-19pe",
+    author: "Stanislav",
+    date: "May 28, 2021 ⋅ 5 min read"
+  }
+]
 
 </script>
 
 <template>
-  <div class="grid grid-cols-4 gap-4 mt-12">
-    <div class="col-start-2 col-end-4">
-
+  <div class="grid grid-cols-9 gap-4 mt-12">
+    <div class="col-span-3 row-span-2" v-for="post in posts">
       <fwb-card variant="horizontal" class="text-center p-10 bg-gray-900 dark:bg-teal-600">
         <fwb-img alt="flowbite-vue"
           img-class="rounded-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-          size="max-w-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg">
+          size="max-w-md" :src=post.img>
         </fwb-img>
 
 
         <div class="p-5">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-            How to implement CQRS and Event Sourcing pattern in Go
-          </h5>
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">{{  post.title }}</h5>
           <p class="font-normal text-gray-700 dark:text-gray-400">
-            I decided to write this article with the idea to show how it is possible to achieve a pattern to help us
-            write projects with more logic business in Golang.
           </p>
         </div>
 
@@ -37,28 +55,22 @@ const imgUrl = new URL('../assets/myself.jpg', import.meta.url).href
           </div>
           <div class="flex-1">
             <p class="text-sm font-medium dark:text-white">
-              Stanislav
+              {{ post.author }}
             </p>
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              Aug 25, 2025 ⋅ 8 min read
+            <p class="text-sm text-gray-400 dark:text-gray-300">
+              {{  post.date }}
             </p>
-
-
           </div>
           <div class="flex-1">
             <fwb-button
-              href="https://medium.com/@stani.petrosyan/how-to-implement-cqrs-and-event-sourcing-pattern-in-go-fd47dc0afd80"
+              :href=post.link
               class="dark:bg-gray-900 bg-teal-600">
               Explore
             </fwb-button>
           </div>
         </div>
       </fwb-card>
-
     </div>
   </div>
-
-
-
 
 </template>
