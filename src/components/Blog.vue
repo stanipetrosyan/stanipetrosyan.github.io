@@ -11,7 +11,7 @@ const posts = [
   {
     title: "How to implement SAGA pattern in Go",
     img: "https://flowbite.com/docs/images/blog/image-1.jpg",
-    link: "https://dev.to/cherrychain/vert-x-circuit-breaker-pattern-19pe",
+    link: "",
     author: "Stanislav",
     date: "Coming soon"
   },
@@ -39,7 +39,7 @@ const posts = [
       <fwb-card variant="horizontal" class="text-center p-10 bg-gray-900 dark:bg-teal-600">
         <fwb-img alt="flowbite-vue"
           img-class="rounded-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-          size="max-w-md" :src=post.img>
+          size="max-w-sm" :src=post.img>
         </fwb-img>
 
 

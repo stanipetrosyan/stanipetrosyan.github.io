@@ -1,35 +1,59 @@
 <script setup>
 import { ref } from 'vue'
-import { FwbTab, FwbTabs, FlowbiteThemable } from 'flowbite-vue'
 import Experience from '@/components/Experience.vue';
 import Knowledge from '@/components/Knowledge.vue';
 import Blog from '@/components/Blog.vue';
 import Projects from '@/components/Projects.vue';
 
-const activeTab = ref('experience')
+const currentTab = ref('Experience')
+
+const tabs = {
+  Experience,
+  Knowledge,
+  Projects,
+  Blog
+}
 </script>
 
 <template>
-  <div class="flex flex-row">
-    <div class="basis-full m-6">
-      <fwb-tabs v-model="activeTab" variant="default">
-        <fwb-tab name="experience" title="Experience">
-          <Experience></Experience>
-        </fwb-tab>
-        <fwb-tab name="knowledge" title="Knowledge">
-          <Knowledge></Knowledge>
-        </fwb-tab>
-        <fwb-tab name="blog" title="Blog">
-          <Blog></Blog>
-        </fwb-tab>
-        <fwb-tab name="projects" title="Projects">
-          <Projects></Projects>
-        </fwb-tab>
-      </fwb-tabs>
+  <aside id="default-sidebar" class="fixed z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+    aria-label="Sidebar">
+    <div class="h-full px-3 py-4 overflow-y-auto bg-teal-600 dark:bg-gray-900">
+      <ul class="space-y-2 font-medium">
+        <li>
+          <div @click="currentTab = 'Experience'"
+            class="flex items-center p-2 rounded-lg text-white hover:bg-gray-900 dark:hover:bg-teal-600 group">
+            <span class="ms-3">Experience</span>
+          </div>
+        </li>
+        <li>
+          <div @click="currentTab = 'Knowledge'"
+            class="flex items-center p-2 rounded-lg text-white hover:bg-gray-900 dark:hover:bg-teal-600 group">
+            <span class="flex-1 ms-3 whitespace-nowrap">Knowledge</span>
+          </div>
+        </li>
+        <li>
+          <div @click="currentTab = 'Projects'"
+            class="flex items-center p-2 rounded-lg text-white hover:bg-gray-900 dark:hover:bg-teal-600 group">
+            <span class="flex-1 ms-3 whitespace-nowrap">Projects</span>
+          </div>
+        </li>
+        <li>
+          <div @click="currentTab = 'Blog'"
+            class="flex items-center p-2 rounded-lg text-white hover:bg-gray-900 dark:hover:bg-teal-600 group">
+            <span class="flex-1 ms-3 whitespace-nowrap">Blog</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <div class="p-4 sm:ml-64">
+    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+      <component :is="tabs[currentTab]"></component>
     </div>
   </div>
 
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
