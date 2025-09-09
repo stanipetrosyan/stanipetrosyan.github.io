@@ -13,35 +13,19 @@ const tabs = {
   Projects,
   Blog
 }
+
 </script>
 
 <template>
   <aside id="default-sidebar" class="fixed z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
     aria-label="Sidebar">
-    <div class="h-full px-3 py-4 overflow-y-auto bg-teal-600 dark:bg-gray-900">
-      <ul class="space-y-2 font-medium">
-        <li>
-          <div @click="currentTab = 'Experience'"
-            class="flex items-center p-2 rounded-lg text-white hover:bg-gray-900 dark:hover:bg-teal-600 group">
-            <span class="ms-3">Experience</span>
-          </div>
-        </li>
-        <li>
-          <div @click="currentTab = 'Knowledge'"
-            class="flex items-center p-2 rounded-lg text-white hover:bg-gray-900 dark:hover:bg-teal-600 group">
-            <span class="flex-1 ms-3 whitespace-nowrap">Knowledge</span>
-          </div>
-        </li>
-        <li>
-          <div @click="currentTab = 'Projects'"
-            class="flex items-center p-2 rounded-lg text-white hover:bg-gray-900 dark:hover:bg-teal-600 group">
-            <span class="flex-1 ms-3 whitespace-nowrap">Projects</span>
-          </div>
-        </li>
-        <li>
-          <div @click="currentTab = 'Blog'"
-            class="flex items-center p-2 rounded-lg text-white hover:bg-gray-900 dark:hover:bg-teal-600 group">
-            <span class="flex-1 ms-3 whitespace-nowrap">Blog</span>
+
+    <div class="h-full px-3 py-4 overflow-y-auto bg-teal-600 dark:bg-gray-900"> 
+      <ul v-for="(_, tab) in tabs" class="space-y-2 font-medium">
+        <li class="mt-2">
+          <div @click="currentTab = tab" :class="{ 'dark:bg-teal-600 bg-gray-900': currentTab === tab }"
+            class="flex items-center p-2 rounded-lg text-white hover:bg-gray-900 dark:hover:bg-teal-600">
+            <span class="ms-3"> {{ tab }}</span>
           </div>
         </li>
       </ul>
@@ -56,4 +40,5 @@ const tabs = {
 
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
